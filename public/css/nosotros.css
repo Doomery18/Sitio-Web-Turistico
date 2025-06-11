@@ -1,0 +1,14 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(30, 98, 199);
+    font-size: 20px;
+    padding: 18px;
+    margin: 1px;
+    display: flex;
+    position: fixed 
+}
