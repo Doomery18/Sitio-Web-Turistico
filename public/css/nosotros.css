@@ -1,14 +1,23 @@
-*{
+* {
     margin: 10px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-nav{
-    background-color: rgb(30, 98, 199);
-    font-size: 20px;
-    padding: 18px;
-    margin: 1px;
-    display: flex;
-    position: fixed 
+nav a {
+    text-decoration: none;
+    color: rgb(223, 100, 100);
+    padding: 5px;
+}
+
+nav::after {
+    text-decoration: none;
+    color: rgb(124, 30, 30);
+}
+
+
+body {
+    background-color: #6ba8ec;
+    color: white;
+    font-family: Arial, sans-serif;
 }
