@@ -1,0 +1,31 @@
+body {
+    background-color: #6ba8ec;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background-color: #4d90c7;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.9 ease;
+}
+
+
+
+
+.nav-link:hover {
+    color: #00ff33
+}
