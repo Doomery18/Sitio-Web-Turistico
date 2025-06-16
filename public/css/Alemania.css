@@ -157,3 +157,73 @@
     footer ul li a:hover {
       color: #00ff33;
     }
+
+    /* Cambia fondo a azul en pantallas de 768px o más */
+@media (min-width: 768px) {
+  .contenedor {
+    background-color: blue;
+  }
+}
+
+/* Texto a 16px en móviles pequeños (hasta 480px) */
+@media (max-width: 480px) {
+  .elemento {
+    font-size: 16px;
+  }
+}
+
+/* Contenedor al 50% en pantallas grandes (1200px+) */
+@media (min-width: 1200px) {
+  .contenedor-ancho {
+    width: 50%;
+  }
+}
+
+/* Oculta elemento en móviles muy pequeños (hasta 320px) */
+@media (max-width: 320px) {
+  .elemento-movil {
+    display: none;
+  }
+}
+
+/* Títulos a 20px en tablets grandes/pantallas pequeñas (1024px+) */
+@media (min-width: 1024px) {
+  h1, h2, h3 {
+    font-size: 20px;
+  }
+}
+
+/* Fondo rojo en tablets y móviles (hasta 768px) */
+@media (max-width: 768px) {
+  .alerta {
+    background-color: red;
+  }
+}
+
+/* Párrafos a 14px en móviles medianos (entre 480 y 768px) */
+@media (min-width: 480px) and (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Contenedor al 70% en tablets (entre 768 y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contenedor-tablet {
+    width: 70%;
+  }
+}
+
+/* Texto grande (18px) en pantallas XL (1200px+) */
+@media (min-width: 1200px) {
+  .texto-grande {
+    font-size: 18px;
+  }
+}
+
+/* Oculta elemento solo en tablets (entre 768 y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ocultar-tablet {
+    display: none;
+  }
+}
