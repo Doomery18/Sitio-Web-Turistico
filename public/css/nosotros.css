@@ -4,34 +4,27 @@
     box-sizing: border-box;
 }
 
-
-
 .nosotros{
-    background-color: #4e92f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0077b6;
+    color: white;
     padding: 1rem 0;
     margin: 1px;
     width: 100vw;
-    left: 50%
-    
+    left: 50%   
 }
 
-nav a {
-    text-decoration: ;
-    color: rgb(240, 228, 228);
-    padding: 5px;
+h2{
+    color: rgb(9, 71, 187);
 }
 
-nav ul li:hover {
-    text-decoration: underline;
+hr{
+    border-color: #52cee4;
+    border-radius: 5px;
 }
-
-.nav:hover{
-    color: #4315e7;
-}
-
 
 body {
-    background-color: #e0edfc;
-    color: rgb(75, 69, 69);
-    font-family: Arial, sans-serif;
+    background-color: #90e0ef;
+    color: rgb(35, 36, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
