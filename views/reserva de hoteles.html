@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva de Hoteles - Estilo Trivago</title>
+  <link rel="stylesheet" href="/public/css/reseva de hoteles.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="search-form">
+      <h2>Encuentra tu hotel ideal</h2>
+      <form>
+        <input type="text" placeholder="Destino (p. ej., Cancún)" required>
+        <input type="date" required>
+        <input type="date" required>
+        <select required>
+          <option value="" disabled selected>Huéspedes</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <button type="submit">Buscar Hoteles</button>
+      </form>
+    </div>
+    <div class="filters">
+      <select>
+        <option value="" disabled selected>Ordenar por</option>
+        <option value="price">Precio</option>
+        <option value="rating">Calificación</option>
+        <option value="distance">Distancia</option>
+      </select>
+      <select>
+        <option value="" disabled selected>Estrellas</option>
+        <option value="5">5 estrellas</option>
+        <option value="4">4 estrellas</option>
+        <option value="3">3 estrellas</option>
+      </select>
+      <input type="range" min="0" max="500" value="500" step="10">
+      <span>Precio máx: $500</span>
+    </div>
+    <div class="hotel-grid">
+      <div class="hotel-card">
+        <img src="/public/img/Hotel Cancun.jpg" alt="Hotel 1">
+        <div class="hotel-card-content">
+          <h3>Hotel Paraíso</h3>
+          <p class="stars">★★★★☆</p>
+          <p>Cancún, México</p>
+          <p class="price">$120 / noche</p>
+          <button>Ver Oferta</button>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <img src="/public/img/Oasis Palm.jpg" alt="Hotel 2">
+        <div class="hotel-card-content">
+          <h3>Hotel Oasis</h3>
+          <p class="stars">★★★★★</p>
+          <p>Cancún, México</p>
+          <p class="price">$150 / noche</p>
+          <button>Ver Oferta</button>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <img src="/public/img/Hotel Luna.webp" alt="Hotel 3">
+        <div class="hotel-card-content">
+          <h3>Hotel Luna</h3>
+          <p class="stars">★★★☆☆</p>
+          <p>Cabrera, Republica Dominicana</p>
+          <p class="price">$100 / noche</p>
+          <button>Ver Oferta</button>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <img src="/public/img/Hotel Sol Azul.jpg" alt="Hotel 4">
+        <div class="hotel-card-content">
+          <h3>Hotel Sol Azul</h3>
+          <p class="stars">★★★★☆</p>
+          <p>La Romana, Republica Dominicana</p>
+          <p class="price">$130 / noche</p>
+          <button>Ver Oferta</button>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <img src="/public/img/Hotel Estrella.jpg" alt="Hotel 5">
+        <div class="hotel-card-content">
+          <h3>Hotel Estrella</h3>
+          <p class="stars">★★★★☆</p>
+          <p>Managua, Nicaragua</p>
+          <p class="price">$140 / noche</p>
+          <button>Ver Oferta</button>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <img src="/public/img/Hotel del mar.jpg" alt="Hotel 6">
+        <div class="hotel-card-content">
+          <h3>Hotel Mar</h3>
+          <p class="stars">★★★☆☆</p>
+          <p>Monte Cristi, Republica Dominicana</p>
+          <p class="price">$110 / noche</p>
+          <button>Ver Oferta</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Contacto: soporte@tuagencia.com | +52 123 456 7890</p>
+  </div>
+</body>
+</html>
