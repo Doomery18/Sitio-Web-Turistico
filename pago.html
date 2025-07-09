@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario de Pago</title>
+  <link rel="stylesheet" href="../public/css/pago.css" />
+</head>
+<body>
+  <div class="pago-container">
+    <div class="pago-header">
+      <h2>💳 Pago Seguro 🔒</h2>
+    </div>
+
+    <div class="resumen">
+      <p><strong>RESUMEN:</strong></p>
+      <div class="linea">
+        <span>Vuelo MX-205 (MAD → CDMX)</span>
+        <span>$12,500 MXN</span>
+      </div>
+      <div class="linea">
+        <span>Impuestos:</span>
+        <span>$1,200 MXN</span>
+      </div>
+      <div class="linea total">
+        <span><strong>TOTAL:</strong></span>
+        <span><strong>$13,700 MXN</strong></span>
+      </div>
+    </div>
+
+    <form class="formulario-pago">
+      <label for="numero">💳 Número de tarjeta:</label>
+      <input type="text" id="numero" name="numero" maxlength="19" placeholder="•••• •••• •••• ••••" required />
+
+      <div class="grupo">
+        <div>
+          <label for="fecha">📅 Fecha Exp:</label>
+          <input type="text" id="fecha" name="fecha" placeholder="MM/AA" required />
+        </div>
+        <div>
+          <label for="cvv">🔐 CVV:</label>
+          <input type="text" id="cvv" name="cvv" maxlength="3" placeholder="•••" required />
+        </div>
+      </div>
+
+      <label class="guardar">
+        <input type="checkbox" name="guardar" /> Guardar tarjeta para futuros pagos
+      </label>
+
+      <button type="submit" class="btn-pagar">[PAGAR AHORA]</button>
+    </form>
+
+    <div class="alternativos">
+      <p>Otros métodos:</p>
+      <div class="metodos">
+        <span class="visa">VISA</span>
+        <span class="mastercard">MasterCard</span>
+        <span class="amex">AmEx</span>
+        <span class="paypal">PayPal 🅿️</span>
+        <span class="transferencia">🏦 Transferencia</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

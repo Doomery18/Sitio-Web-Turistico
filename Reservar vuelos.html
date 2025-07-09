@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reserva de Vuelos</title>
+  <link rel="stylesheet" href="../public/css/Reservar vuelos.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Reserva de Vuelos</h1>
+      <nav class="navbar">
+        <div>¡Hola, Ana!</div>
+        <div>Notificaciones 🔔</div>
+        <div class="active">Mi perfil 👤</div>
+      </nav>
+    </header>
+
+    <section class="form-section">
+      <div class="form-row">
+        <label>Origen:</label>
+        <select>
+          <option>Ciudad de México</option>
+        </select>
+
+        <label>Destinos:</label>
+        <select>
+          <option>Madrid</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label>Fecha de ida:</label>
+        <input type="date" value="2025-08-15">
+
+        <label>Vuelta:</label>
+        <input type="date" value="2025-08-20">
+      </div>
+
+      <div class="form-row">
+        <label>Pasajeros:</label>
+        <select>
+          <option>1 Adulto</option>
+        </select>
+
+        <button class="buscar-btn">🔍 BUSCAR</button>
+      </div>
+    </section>
+
+    <section class="resultados">
+      <div class="vuelo">
+        <p>VUELO MX-205 &nbsp;&nbsp; 08:00 AM - 10:00 AM &nbsp;&nbsp; $12,500 MXN</p>
+        <button>RESERVAR AHORA</button>
+      </div>
+      <div class="vuelo">
+        <p>VUELO MX-210 &nbsp;&nbsp; 12:00 PM - 02:00 PM &nbsp;&nbsp; $14,000 MXN</p>
+        <button>RESERVAR AHORA</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

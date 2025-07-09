@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #aee2ff, #d0f0ff);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.reserva-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 420px;
+  width: 90%;
+  overflow: hidden;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.reserva-header {
+  background: linear-gradient(to right, #0077cc, #3399ff);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #005fa3;
+}
+
+.reserva-header h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.reserva-header .fecha {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.reserva-info {
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.reserva-info .label {
+  font-weight: 600;
+  color: #005fa3;
+}
+
+.reserva-info .ruta,
+.reserva-info .tarjeta {
+  color: #555;
+  font-style: italic;
+}
+
+.reserva-info p {
+  margin-bottom: 12px;
+}
+
+.reserva-acciones {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 20px 25px;
+  background-color: #f1faff;
+}
+
+.reserva-acciones button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 14px;
+}
+
+.btn-detalles {
+  background-color: #004d80;
+  color: white;
+}
+
+.btn-detalles:hover {
+  background-color: #006bb3;
+}
+
+.btn-revisado {
+  background-color: #00b894;
+  color: white;
+}
+
+.btn-revisado:hover {
+  background-color: #00a383;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
