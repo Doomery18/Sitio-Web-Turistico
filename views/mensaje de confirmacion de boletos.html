@@ -1,117 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Reserva de hoteles</title>
-<style>
-  body {
-    background-color: #7D7D7D; /* Gris de fondo */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-
-  /* Contenedor principal */
-  .container {
-    max-width: 400px;
-    background-color: #B0E0E6; /* Azul claro */
-    border-radius: 10px;
-    padding: 15px;
-    margin: 0 auto;
-  }
-
-  /* Título */
-  h1 {
-    background-color: #3399FF; /* Azul del título */
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 10px 10px 0 0;
-  }
-
-  /* Texto debajo del título */
-  p {
-    text-align: center;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-
-  /* Contenedor para las cajas de reserva */
-  .reservas {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-
-  /* Cada caja */
-  .caja {
-    background-color: white;
-    width: 45%;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-  }
-
-  /* Texto dentro de las cajas */
-  .caja p {
-    margin: 0 0 10px 0;
-    font-weight: bold;
-  }
-
-  /* Input para los montos */
-  input[type="text"] {
-    width: 100%;
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    text-align: center;
-  }
-
-  /* Flechas de navegación (opcional) */
-  .flechas {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmación de Boleto</title>
+  <link rel="stylesheet" href="/public/css/mensaje de confirmacion de boleto.css">
+  
 </head>
 <body>
-
-<div class="container">
-  <!-- Título -->
-  <h1>Reserva de hoteles</h1>
-  
-  <!-- Texto en la parte superior -->
-  <p>RESERVA DE HOTELES</p>
-  
-  <!-- Contenedor de las cajas de reserva -->
-  <div class="reservas">
-    <!-- Primera fila -->
-    <div class="caja">
-      <p>Entrada</p>
-      <input type="text" placeholder="00.00 $" />
+  <div class="ticket">
+    <div class="ticket-header">
+      <img src="/public/img/recurso.png" alt="Logo">
+      <h2>Confirmación de Boleto</h2>
     </div>
-    <div class="caja">
-      <p>Salida</p>
-      <input type="text" placeholder="00.00 $" />
+    <div class="ticket-body">
+      <table>
+        <tr>
+          <th>Pasajero</th>
+          <td>Gerok Lora</td>
+        </tr>
+        <tr>
+          <th>Código de Reserva</th>
+          <td>GLPCAL</td>
+        </tr>
+        <tr>
+          <th>Vuelo</th>
+          <td>Volaris VL123 (MEX - CUN)</td>
+        </tr>
+        <tr>
+          <th>Fecha y Hora</th>
+          <td>15 de Julio, 2025, 10:30 AM</td>
+        </tr>
+        <tr>
+          <th>Asiento</th>
+          <td>12A (Ventana)</td>
+        </tr>
+        <tr>
+          <th>Puerta</th>
+          <td>14</td>
+        </tr>
+      </table>
+      <a href="#" class="checkin-btn">Hacer Check-in Online</a>
+      <img src="https://via.placeholder.com/100?text=QR" alt="QR Code" class="qr-code">
+      <p>¡Prepárate para tu aventura! Llega 3 horas antes al aeropuerto.</p>
+      <p>Contacto: soporte@tuagencia.com | +52 123 456 7890</p>
     </div>
   </div>
-  
-  <!-- Segunda fila -->
-  <div class="reservas" style="margin-top:20px;">
-    <div class="caja">
-      <p>Opción 1</p>
-      <input type="text" placeholder="00.00 $" />
-    </div>
-    <div class="caja">
-      <p>Opción 2</p>
-      <input type="text" placeholder="00.00 $" />
-    </div>
-  </div>
-</div>
-
 </body>
 </html>
