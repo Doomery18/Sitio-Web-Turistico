@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Pago</title>
+    <link rel="stylesheet" href="../public/css/pago.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h1>PAGO</h1>
+        <div class="input-group">
+            <label for="cardNumber">NÚMERO DE TARJETA</label>
+            <input type="text" id="cardNumber" placeholder="0000 0000 0000 0000" maxlength="19">
+        </div>
+        <div class="input-group">
+            <label for="expiryDate">FECHA DE EXPIRACIÓN</label>
+            <input type="text" id="expiryDate" placeholder="MM / YY" maxlength="5">
+        </div>
+        <div class="input-group">
+            <label for="ccv">CCV</label>
+            <input type="text" id="ccv" placeholder="CVV" maxlength="4">
+        </div>
+        <div class="card-logos">
+            <img src="../public/img/visa.png" alt="Visa">
+            <img src="../public/img/pay mastercard.png" alt="Mastercard">
+            <img src="../public/img/american express.png" alt="American Express">
+            <img src="../public/img/discover.png" alt="Discover">
+        </div>
+        <button class="pay-button">Proceder a pagar</button>
+    </div>
+</body>
+</html>

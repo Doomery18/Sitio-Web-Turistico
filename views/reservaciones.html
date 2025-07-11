@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar Actividad</title>
+    <link rel="stylesheet" href="../public/css/reservaciones.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reservar tu Actividad</h1>
+        <p>Completa el siguiente formulario para asegurar tu plaza.</p>
+
+        <form action="/submit-reservation" method="POST">
+            <div class="form-group">
+                <label for="activityType">Tipo de Actividad:</label>
+                <select id="activityType" name="activityType" required>
+                    <option value="">Selecciona un tipo</option>
+                    <option value="concierto">Concierto</option>
+                    <option value="gastronomica">Actividad Gastronómica</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="activityName">Nombre de la Actividad:</label>
+                <input type="text" id="activityName" name="activityName" placeholder="Ej: Concierto de Jazz, Cena de Degustación" required>
+            </div>
+
+            <div class="form-group">
+                <label for="activityDate">Fecha:</label>
+                <input type="date" id="activityDate" name="activityDate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="activityTime">Hora:</label>
+                <input type="time" id="activityTime" name="activityTime" required>
+            </div>
+
+            <div class="form-group">
+                <label for="clientName">Tu Nombre Completo:</label>
+                <input type="text" id="clientName" name="clientName" placeholder="Ej: Juan Pérez" required>
+            </div>
+
+            <div class="form-group">
+                <label for="clientEmail">Tu Correo Electrónico:</label>
+                <input type="email" id="clientEmail" name="clientEmail" placeholder="ejemplo@dominio.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="clientPhone">Tu Teléfono (opcional):</label>
+                <input type="tel" id="clientPhone" name="clientPhone" placeholder="Ej: 809-555-1234">
+            </div>
+
+            <div class="form-group">
+                <label for="numGuests">Número de Personas/Boletos:</label>
+                <input type="number" id="numGuests" name="numGuests" min="1" value="1" required>
+            </div>
+
+            <button type="submit">Confirmar Reserva</button>
+        </form>
+
+        
+    </div>
+</body>
+</html>
