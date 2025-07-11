@@ -1,0 +1,69 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.formulario {
+  background-color: #f9f9f9;
+  border: 2px solid #b3d7ff;
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.formulario button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.mensaje {
+  background-color: #c1e4ff;
+  padding: 20px;
+  width: 300px;
+  color: #000;
+  border-left: 10px solid #003366;
+}
+
+.mensaje h3 {
+  margin-top: 0;
+}
+
+.detalles {
+  font-size: 14px;
+  margin-top: 10px;
+}
