@@ -17,7 +17,7 @@ body {
       text-align: center;
     }
     .ticket-header {
-      background: #007E8B;
+      background: #03409cc7;
       color: white;
       padding: 10px;
       border-radius: 8px 8px 0 0;
@@ -45,7 +45,7 @@ body {
     .checkin-btn {
       display: inline-block;
       padding: 10px 20px;
-      background: #247bc3;
+      background: #042c81;
       color: white;
       text-decoration: none;
       border-radius: 5px;
