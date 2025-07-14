@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentar carro</title>
+    <link rel="stylesheet" href="../public/css/rent-car.css">
+</head>
+
+<form>
+
+    <body>
+        <center>
+            <div class="rent-car">
+                <h1>Rent a car</h1><br>
+                <hr><br>
+        </center>
+
+        <h4>Información personal</h4><br>
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <hr><br>
+
+        <h4>Detalles de renta</h4><br>
+
+        <div class="detalles">
+            <div>
+                <label for="recogida">Fecha de recogida</label><br>
+                <input type="date" id="recogida" name="recogida" required><br><br>
+            </div>
+
+
+            <div>
+                <label for="devolucion">Fecha de devolución</label><br>
+                <input type="date" id="devolucion" name="devolucion" required><br><br>
+            </div>
+
+
+            <label for="vehiculo">Tipo de vehiculo</label><br>
+            <select name="vehiculo" id="vehiculo">
+                <option>Seleccione un vehiculo</option>
+            </select><br><br>
+
+
+            <button type="sudmit">Enviar</button>
+</form>
+</div>
+</body>
+
+</html>
