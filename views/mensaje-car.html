@@ -7,8 +7,56 @@
     <link rel="stylesheet" href="../public/css/mensaje-car.css">
 </head>
 
-<body>
+<form>
 
-</body>
+    <body>
+
+        <center>
+            <div class="rent-car">
+                <h1>Rent a car</h1><br>
+                <hr><br>
+        </center>
+
+        <h4>Información personal</h4><br>
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" value="Heris Sanchez" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="herissanchez542@gmail.com" required><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" value="809-567-8910" required><br><br>
+
+
+        <hr><br>
+
+        <h4>Detalles de renta</h4><br>
+
+        <div class="detalles">
+            <div>
+                <label for="recogida">Fecha de recogida</label><br>
+                <input type="date" id="recogida" name="recogida" value="10-08-2025" required><br><br>
+            </div>
+
+
+            <div>
+                <label for="devolucion">Fecha de devolución</label><br>
+                <input type="date" id="devolucion" name="devolucion" value="20-08-2025" required><br><br>
+            </div>
+
+
+            <label for="vehiculo">Tipo de vehiculo</label><br>
+            <select name="vehiculo" id="vehiculo">
+                <option value="Seleccione un vehiculo">Seleccione un vehiculo</option>
+                <option value="sedan" selected>Chevrolet</option>
+                <option value="suv">Toyota</option>
+                <option value="pickup">Ford</option>
+                <option value="deportivo">Pordche</option>
+            </select><br><br>
+
+    </body>
+
+</form>
 
 </html>

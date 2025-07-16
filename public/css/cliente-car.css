@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c2d55;
+    font-family: Arial, sans-serif;
+}
+
+.cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mensaje {
+    background-color: #a3d4f7;
+    padding: 60px;
+    border-radius: 9px;
+    text-align: center;
+    color: black;
+}
